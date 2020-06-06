@@ -12,7 +12,7 @@ class LoginForm extends React.Component {
   
   handleChange = event => {
     this.setState({
-      username: 
+      username: event.target[0].value
     })
   }
 
