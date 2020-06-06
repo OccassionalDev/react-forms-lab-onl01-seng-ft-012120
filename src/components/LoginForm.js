@@ -23,7 +23,7 @@ class LoginForm extends React.Component {
       return
     }
     
-    this.
+    this.props.handleLogin(this.state)
   }
 
   render() {
