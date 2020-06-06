@@ -9,6 +9,10 @@ class LoginForm extends React.Component {
       password: ""
     }
   }
+  
+  handleChange = () => {
+    
+  }
 
   render() {
     return (
