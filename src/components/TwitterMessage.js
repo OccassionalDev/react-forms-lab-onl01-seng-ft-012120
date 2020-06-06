@@ -16,6 +16,8 @@ class TwitterMessage extends React.Component {
   }
 
   render() {
+    let charNumbers = this.state.maxChars - this.
+    
     return (
       <div>
         <strong>Your message:</strong>
